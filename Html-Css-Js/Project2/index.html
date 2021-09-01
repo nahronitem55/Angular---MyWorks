@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css" />
+    <script src="lib/script.js"></script>
+    <style>
+      h6 {
+        color: red;
+        background-color: blue;
+      }
+      table {
+        border-collapse: collapse;
+        width: 90%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th {
+        color: black;
+        height: 30px;
+        text-align: left;
+      }
+      td {
+        color: black;
+        height: 40px;
+        vertical-align: center;
+        text-align: left;
+        padding-left: 5px;
+      }
+      tr:hover {
+        background-color: gray;
+      }
+      tr:nth-child(even) {
+        background-color: yellow;
+      }
+      tr:nth-child(odd) {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="links.html">Links</a>
+    <br />
+    <a href="tables.html">Tables</a>
+    <br />
+    <a href="formatting.html">Format</a>
+    <br />
+    <a href="layout.html">Layout</a>
+    <br />
+    <a href="forms.html">Form</a>
+    <h1>Hello World!</h1>
+    <h6>Hello World!</h6>
+    <p>Hello Brothers! Today weather is sunny</p>
+    <ol>
+      <li>
+        <h3>Work One</h3>
+        <br />
+        <ul>
+          <li>Beşiktaş</li>
+          <ol>
+            <li>Futbol</li>
+            <li>Basketbol</li>
+            <li>Hentbol</li>
+            <li>E Spor</li>
+          </ol>
+          <br />
+          <li>Fenerbahçe</li>
+          <ol>
+            <li>Futbol</li>
+            <li>Basketbol</li>
+            <li>E Spor</li>
+          </ol>
+          <br />
+          <li>Galatasaray</li>
+          <ol>
+            <li>Futbol</li>
+            <li>Basketbol</li>
+            <li>Hentbol</li>
+            <li>Voleybol</li>
+          </ol>
+          <br />
+          <li>Trabzonspor</li>
+          <ol>
+            <li>Futbol</li>
+            <li>Basketbol</li>
+          </ol>
+        </ul>
+        <br />
+      </li>
+      <br />
+      <li>
+        <h3>Work Two</h3>
+        <table>
+          <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Şehir</th>
+          </tr>
+          <tr>
+            <td>Orhan</td>
+            <td>Metin</td>
+            <td>Samsun</td>
+          </tr>
+          <tr>
+            <td>Hüseyin</td>
+            <td>Sağlam</td>
+            <td>Hatay</td>
+          </tr>
+          <tr>
+            <td>Sebahattin</td>
+            <td>Güçlü</td>
+            <td>Tokat</td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <h3>Work Three</h3>
+        <label>Name:</label>
+        <br />
+        <input type="text" />
+        <label>Surname:</label>
+        <input type="text" />
+        <label>Password:</label>
+        <input type="password" />
+        <br />
+        <input type="submit" />
+      </li>
+      <li>
+        <h3>Work Four</h3>
+        <label class="myClass">Label Example</label>
+        <label class="myClass">LabelClass Example</label>
+        <p>Paragraf Example</p>
+        <p class="someClass">Paragraf Class Example1</p>
+        <h2 class="someClass">Paragraf Class Example2!!</h2>
+        <button id="emailGonder" onclick="alert('TestID basıldı')">
+         TestID
+        </button>
+      </li>
+    </ol>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+/* Add your styles here */
+
+h1{
+  color:blue;
+  background-color:red;
+  font-size:30px;
+}
+h3{
+  color:white;
+  background-color:blue;
+}
+
+body{
+  background-color:black;
+  border:1px scroll-padding-block-start;
+  margin-top:100px;
+  margin-left:100px;
+  margin-right:120px;
+  margin-bottom:50px;
+}
+
+footer{
+   background-color:white;
+}
+
+header{
+  color:white;
+  background-color:purple;
+}
+
+nav{
+  background-color:yellow;
+}
+
+table{
+    background-color:green;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:100px;
+}
+
+ul{
+  color:white;
+  background-color:blue;
+}
+
+ol{
+  color:white;
+  background-color:blue;
+}
+
+
+a{
+  font-style:italic;
+  font-size:25px;
+}
+
+b{
+  color:white;
+  background-color:blue;
+}
+
+strong{
+  color:white;
+  background-color:blue;
+}
+
+em{
+  color:white;
+  background-color:blue;
+}
+
+i{
+  color:white;
+  background-color:blue;
+}
+
+sub{
+  color:white;
+  background-color:red;
+}
+
+ins{
+  color:red;
+  background-color:grey;
+}
+
+del{
+  color:red;
+  background-color:aqua;
+}
+
+mark{
+  color:red;
+  background-color:pink;
+}
+
+p{
+  color:yellow;
+}
+
+label{
+   color:rgb(166, 255, 0);
+}
+
+button{
+  color:white;
+  background-color:green;
+}
+
+input[type="text"],input[type="password"]{
+  width:80%;
+  padding:5px;
+  border:1px solid green;
+  color:black;
+  background-color:#3CBC8D;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+      background-color:lightblue;
+}
+
+.myClass{
+  color:cyan;
+  background-color:rgba(82, 0, 158, 0.445);
+}
+
+p:someClass{
+  color:rgb(255, 0, 128);
+  background-color:black;
+}
+
+#emailGonder{
+  background-color:peru;
+}
+
+
