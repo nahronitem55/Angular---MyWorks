@@ -30,12 +30,12 @@ var dizi = [
   "z",
 ];
 
-dizi.forEach(function(dizi){
-    console.log("Alphabet")
-    console.log(dizi)
-})
+dizi.forEach(function (dizi) {
+  console.log("Alphabet");
+  console.log(dizi);
+});
 
-console.log("Passwords")
+console.log("Passwords");
 
 for (i = 0; i <= 28; i++) {
   for (j = 0; j <= 28; j++) {
@@ -46,9 +46,6 @@ for (i = 0; i <= 28; i++) {
     }
   }
 }
-
-
-
 
 console.log("Finish All Passwords");
 
