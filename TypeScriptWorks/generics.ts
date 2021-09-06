@@ -20,15 +20,15 @@ let sayi3 = deger3<number>(55);
 let citys3 = deger3<string>("Samsun");
 
 class GenericsClass<T> {
-    constructor() {
-        
-    }
+  constructor() {}
 
-    degisken: T;
-    parametreIn(parametre: T):T{
-        return parametre;
-    }
+  degisken: T;
+  parametreIn(parametre: T): T {
+    return parametre;
+  }
 }
 
-let sinif = new GenericsClass<string>()
-sinif.parametreIn('Ankara')
+let sinif = new GenericsClass<string>();
+sinif.parametreIn("Ankara");
+
+console.log("TypeScript Work End! Test Commit")

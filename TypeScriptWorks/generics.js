@@ -22,4 +22,5 @@ var GenericsClass = /** @class */ (function () {
     return GenericsClass;
 }());
 var sinif = new GenericsClass();
-sinif.parametreIn('Ankara');
+sinif.parametreIn("Ankara");
+console.log("TypeScript Work End! Test Commit");
