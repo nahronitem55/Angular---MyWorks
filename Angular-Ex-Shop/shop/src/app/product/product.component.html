@@ -1,16 +1,37 @@
 <h3 *ngIf="products; else noProduct">{{ title }}</h3>
+<div class="mb-3">
+  <label for="productName" class="form-label">Email address</label>
+  <input
+    class="form-control"
+    id="productName"
+    placeholder="Ürün Arama"
+    [(ngModel)]="filterText"
+  />
+  <small *ngIf="filterText" class="form-text text-muted">
+    Şu an <strong>{{ filterText }}</strong> aradınız
+  </small>
+</div>
 <div class="row">
   <ng-template #noProduct>
     <div class="alert alert-primary" role="alert">
       Bu katagoride ürün bulunmamaktadır
     </div>
   </ng-template>
-  <div *ngFor="let product of products" class="card" style="width: 18rem">
-    <div class="col-md-12 col-lg-3"> <img class="card-img-top"  src="{{product.imageUrl}}" alt="..." /></div>
+  <div
+    *ngFor="let product of products | productFilter: filterText"
+    class="card"
+    style="width: 18rem"
+  >
+    <div class="col-md-12 col-lg-3">
+      <img class="card-img-top" src="{{ product.imageUrl }}" alt="..." />
+    </div>
     <div class="card-body">
-      <h5 class="card-title">{{ product.productName }} {{product.price}}</h5>
+      <h5 class="card-title">
+        {{ product.productName }}
+        {{ product.price | currency: "TRY":true:"1.2-2" }}
+      </h5>
       <p class="card-text">
-        {{product.description}}
+        {{ product.description }}
       </p>
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
