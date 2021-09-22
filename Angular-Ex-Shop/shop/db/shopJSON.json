@@ -1,5 +1,5 @@
 {
-"products": [
+  "products": [
     {
       "id": 1,
       "productName": "Laptop",
@@ -55,14 +55,38 @@
       "categoryId": 5,
       "description": "Mi8",
       "imageUrl": "https://images.unsplash.com/photo-1631016800696-5ea8801b3c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80"
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
     }
   ],
-"categories":[
-    { "id": 1, "categoryName": "Elektronik" }, 
-    { "id": 2, "categoryName": "Bilgisayar" },
-    { "id": 3, "categoryName": "Telefon" },
-    { "id": 4, "categoryName": "İletişim" }, 
-    { "id": 5, "categoryName": "Müzik" } ,
-	{ "id": 6, "categoryName": "En Çok Satanlar" }	
-]
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Elektronik"
+    },
+    {
+      "id": 2,
+      "categoryName": "Bilgisayar"
+    },
+    {
+      "id": 3,
+      "categoryName": "Telefon"
+    },
+    {
+      "id": 4,
+      "categoryName": "İletişim"
+    },
+    {
+      "id": 5,
+      "categoryName": "Müzik"
+    },
+    {
+      "id": 6,
+      "categoryName": "En Çok Satanlar"
+    }
+  ]
 }
